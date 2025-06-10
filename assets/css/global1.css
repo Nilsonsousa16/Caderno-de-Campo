@@ -46,7 +46,7 @@ section {
     background-color: #ffffff;
     box-shadow: 0px 0px 10px;
     max-width: 800px;
-    height: 900px;
+    height: 950px;
     width: 100%;
     width: auto;
     justify-self: center;
@@ -62,27 +62,13 @@ h1 {
 section p {
     justify-self: center;
     text-align: justify;
-    width: 90%;
+    width: 80%;
     font-size: 20px;
 }
 
 @media only screen and (max-width: 660px) {
-    section {
-        height: 700px;
-    }
-
     section p {
-        font-size: 15px;
-    }
-}
-
-@media only screen and (max-width: 500px) {
-    section {
-        height: 600px;
-    }
-
-    section p {
-        font-size: 12px;
+        font-size: 16px;
     }
 }
 
