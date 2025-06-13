@@ -73,12 +73,16 @@ img {
     margin: 20px 0px;
 }
 
+.leiliane {
+    width: 250px;
+}
+
 @media only screen and (max-width: 660px) {
     section p {
         font-size: 16px;
     }
 
-    img {
+    img, .leiliane {
         width: 200px;
     }
 }
